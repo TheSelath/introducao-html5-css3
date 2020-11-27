@@ -1,14 +1,21 @@
 body{
-	background: #f7f7f7;	
+	background: #f7f7f7;
+	max-width: 1000px;
+	margin: auto;	
 	font-family: verdana;
-	font-size: 12px;
-	align-content: center;
-	width: 1000px;
+	font-size: 12px;	
 
 }
 
+.cabecalho{
+	margin: auto;
+}
+
 .avatar{
-	max-width: 100px;
+	position: relative;
+
+	max-width: 100px;	
+
 }
 
 #title, .subtitle, .posttitle{
@@ -32,22 +39,21 @@ a{
 
 .post{
 	background: white;
-	padding: 15px;
-	border: 0px solid #505050
+	padding: 15px;	
+	border-radius: 25px;
 	margin-bottom: : 15px;
-	max-width: 800px;
+	max-width: 800px;	
 }
 
-.postcontent{
+.post_content{
 	margin: 0;
-	margin-bottom: 15px;
-	border-radius: 10px;
+	margin-bottom: 15px;	
 	text-transform: capitalize;	
 }
 
-.postimg{
+.post_img{
 	margin-bottom: 15px;
-	max-width: 500px;
+	width: 100%
 }
 
 footer{
@@ -61,10 +67,11 @@ footer{
 	font-weight: bold;
 }
 
-.list{
-	columns: 3;		
+.contatos{
+	text-align: center;
+	columns: 3;
 	font-size: 14px;
 	font-color: #000;	
-	align-content: center;
+	margin-top: 10px;
 }
 
